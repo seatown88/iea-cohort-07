@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/iea-cohort-07.iml" filepath="$PROJECT_DIR$/.idea/iea-cohort-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mygitrepo/.idea/mygitrepo.iml" filepath="$PROJECT_DIR$/../mygitrepo/.idea/mygitrepo.iml" />
     </modules>
   </component>
 </project>
