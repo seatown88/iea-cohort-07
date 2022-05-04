@@ -1,0 +1,5 @@
+if [ $x = 1 ]; then  # note spaces around [ ]
+echo "x = 1"
+else
+    echo "x != 1"
+fi
