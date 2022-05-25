@@ -1,0 +1,12 @@
+[web]
+student2-1 ansible_host=35.190.177.224 
+student2-2 ansible_host=34.148.50.48
+[db]
+student2-2 ansible_host=34.148.50.48
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=ubuntu
+ansible_password=sagsign
+
+
