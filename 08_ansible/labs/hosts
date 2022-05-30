@@ -1,8 +1,21 @@
 [web]
-student2-1 
-student2-2 
+ubuntuserver_22_04 ansible_host=10.0.0.18
+ubuntuserver_20_04 ansible_host=10.0.0.19
+
 [db]
-student2-2 
+ubuntudesktop_22_04 ansible_host=10.0.0.17
+ubuntudesktop_20_04 ansible_host=10.0.0.14
+ubuntuserver_22_04 ansible_host=10.0.0.18
+ubuntuserver_20_04 ansible_host=10.0.0.19
+kb-Precision-WorkStation-690 ansible_host=10.0.0.49
+fedora ansible_host=10.0.0.12
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=kb
+ansible_password=Pl@ystat10n
+ansible_ssh_pass=Pl@ystat10n
+ansible_sudo_pass=Pl@ystat10n
 
 
 
